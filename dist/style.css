@@ -37,6 +37,11 @@ img {
   width: 100%;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 @-webkit-keyframes slideInFromLeft {
   0% {
     -webkit-transform: translateX(-100%);
