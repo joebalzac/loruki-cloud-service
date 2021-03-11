@@ -433,7 +433,7 @@ img {
   position: relative;
   top: 60px;
   height: 350px;
-  width: 400px;
+  width: 100%;
   padding: 40px;
   z-index: 100;
   -webkit-animation: slideInFromRight 1s ease-in;
@@ -601,6 +601,10 @@ pre {
 
 .footer .social a {
   margin: 0 10px;
+}
+
+.footer {
+  padding: 1rem 0 2rem 0;
 }
 
 @media (max-width: 768px) {
